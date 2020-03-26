@@ -1,0 +1,35 @@
+Para iniciar um projeto:
+    npm init -y
+Após isso instala o express
+    npm install express 
+
+Para o NodeJs recomendado usar a porta 3333;
+Para o ReactJS recomendado usar a porta 3000;
+ 
+Para criar o projeto do react para o front end:
+    npx create-react-app <nome-do-projeto>
+
+Para instalar o nodemon:
+    npm install nodemon -D
+
+Para inicia o servidor com nodemon:
+    npm start
+
+
+/*
+** Metodos HTTP:
+*
+* GET: Buscar uma informação no back-end
+* POST: Criar uma informação no back-end
+* PUT: Alterar uma informação no back-end
+* DELETE: Deletar uma informação no back-end
+*
+*/
+
+/*
+** Tipos de parâmetros:
+*
+* Query Params: Parâmentros nomeados enviados na roda ap[os "?" (Filtros, paginação)
+* Route Params: Parâmentros utilizados para identificar recursos
+* Request Body: Corpo da requisição, utilizado para criar ou alterar recursos
+*/
